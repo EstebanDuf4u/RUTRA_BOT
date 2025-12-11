@@ -389,7 +389,7 @@ async def on_message(message: discord.Message):
 @bot.command()
 async def ping(ctx):
     """Test rapide pour voir si le bot répond."""
-    await ctx.send("AlterBot opérationnel 🕊️")
+    await ctx.send("AlterBot opérationnel (test ci/cd) 🕊️")
 
 
 @bot.command(name="reload_words")
