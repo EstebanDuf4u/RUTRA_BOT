@@ -9,10 +9,10 @@ import os
 TOKEN = " MTQ0NTM4NjYxMzk5OTAwOTgzMw.GUwxbV.LZZpkmX8S93APTznvLG0-0tCQEEa4_CLXMqPFs"  # ⚠️ NE PAS PARTAGER
 
 # ID du salon public où les messages anonymes sont publiés
-ANON_OUTPUT_CHANNEL_ID = 1445389268397854901  # <-- ID du salon public anonyme
+ANON_OUTPUT_CHANNEL_ID = 1446300023129116772  # <-- ID du salon public anonyme
 
 # ID du salon staff privé où les logs sont envoyés
-STAFF_LOG_CHANNEL_ID = 1445389232569978890  # <-- ID du salon staff
+STAFF_LOG_CHANNEL_ID = 1446299983979741216  # <-- ID du salon staff
 
 # Fichier de mots bannis (un mot/phrase par ligne)
 BANNED_WORDS_FILE = "banned_words.txt"
