@@ -390,8 +390,8 @@ async def addword(ctx, *, word: str):
             (ctx.guild.id, word)
         )
         await ctx.send(f"🚫 Mot ajouté : `{word}`")
-    except Exception:
-        await ctx.send("⚠️ Impossible d’ajouter (déjà présent ?).")
+    except Exception as e:
+        await ctx.send(f"⚠️ Erreur SQL : `{e}`")
 
 
 @bot.command(name="delword")
