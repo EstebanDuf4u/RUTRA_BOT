@@ -13,7 +13,7 @@ def get_db():
     return mysql.connector.connect(
         host=os.getenv("DB_HOST", "127.0.0.1"),
         user=os.getenv("DB_USER", "root"),
-        password=os.getenv("DB_PASS", ""),
+        password=os.getenv("DB_PASS", "root"),
         database=os.getenv("DB_NAME", "bot_rutra_db"),
         charset="utf8mb4",
         autocommit=False,
