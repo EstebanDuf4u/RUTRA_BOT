@@ -7,7 +7,7 @@ import feedparser
 
 # ===================== CONFIG =====================
 
-TOKEN = " MTQ0NTM4NjYxMzk5OTAwOTgzMw.GUwxbV.LZZpkmX8S93APTznvLG0-0tCQEEa4_CLXMqPFs"  # ⚠️ NE PAS PARTAGER
+TOKEN = " " 
 
 # ID du salon public où les messages anonymes sont publiés
 ANON_OUTPUT_CHANNEL_ID = 1446300023129116772
